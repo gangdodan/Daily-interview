@@ -4,5 +4,12 @@
 - 커머스 서비스로 예를 들면 상품 주문,주문 배송,주문 취소 로직에 필요한 로깅을 AOP 객체로 작성하여 처리하고 스프링에서는 각 로직의 타겟 클래스를 프록시 객체로 생성하여 Aseepct/Advice에 직접적으로 의존하지 않게 해준다.
 - 트랜잭션 같은 경우는 스프링에서 애너테이션 정보를 활용해서 aop 기능을 통해 트랜잭션을 적용시켜준다.
 
+## private 메서드에서 AOP 못쓰는 이유
+## Dynamic Proxy와 CGLIB 차이
+## @Transactional
+
+
+
+
 
 ref) https://velog.io/@ann0905/AOP%EC%99%80-Transactional%EC%9D%98-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC
